@@ -11,6 +11,7 @@ Source0:	http://downloads.wordpress.org/plugin/wp-spamfree.zip
 URL:		http://wordpress.org/extend/plugins/wp-spamfree/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	wpmu >= 2.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
