@@ -1,4 +1,3 @@
-%define		package	wpmu
 %define		plugin	spamfree
 Summary:	WordPressMU SpamFree Anti-Spam
 Name:		wpmu-plugin-%{plugin}
